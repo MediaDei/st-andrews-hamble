@@ -198,6 +198,48 @@ I have been an Associate of an Anglican religious order, The Community of the Se
     <div class="name">Lillian Sediles</div> <div class="desc">PCC Secretary</div>
   </div>
 
+  <input class="radioButton" id="bio3-left" type="radio" name="bio3">
+  <input class="radioButton" id="bio3-right" type="radio" name="bio3">
+  <h1 class="cs-header">Choir & Servers</h1>
+  <div class="wrapper">
+    <div class="grid-1-2">
+      <div class="person">
+        <label class="zoom fa fa-search" for="bio3-left"></label>
+        <figure class="photo-choir"></figure>
+        <div class="text">
+          <p>Choir</p>
+          <p>(All ages)</p>
+        </div>
+        <div class="arrow bio3-left"></div>
+      </div>
+    </div>
+    <div class="grid-1-2">
+      <div class="person">
+        <label class="zoom fa fa-search" for="bio3-right"></label>
+        <figure class="photo-servers"></figure>
+        <div class="text">
+          <p>Servers</p>
+          <p>(All ages)</p>
+        </div>
+        <div class="arrow bio3-right"></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-info m3">
+    <div class="bio3">
+      <p>Choir (All ages)</p>
+      <p class="p capital">
+        We have a dedicated team of servers who assist our priest during Eucharist services (men and women from teenagers to pensioners).  The various roles have special names : eg “Crucifer” carries the cross in processions, “Thurifer” handles the incense and the “Acolytes” carry the candles. New servers are welcome and will be given training.  For more information contact Fr Graham Whiting 023 8045 2148.
+      </p>
+    </div>
+    <div class="bio3">
+      <p>Servers (All ages)</p>
+      <p class="p capital">
+        We have a dedicated team of servers who assist our priest during Eucharist services (men and women from teenagers to pensioners).  The various roles have special names : eg “Crucifer” carries the cross in processions, “Thurifer” handles the incense and the “Acolytes” carry the candles. New servers are welcome and will be given training.  For more information contact Fr Graham Whiting 023 8045 2148.
+      </p>
+    </div>
+    <div class="close fa fa-times"></div>
+  </div>
 </section>
 
 <!--Who We Are Section-->
@@ -239,6 +281,50 @@ I have been an Associate of an Anglican religious order, The Community of the Se
       </p>
     </article>
 
+  </div>
+</section>
+<section>
+  <h1 class="church-header">Church Building</h1>
+  <div class="top-wrapper clearFix">
+    <div class="left">
+      <p>St. Andrew’s church is more than 900 years old.</p>
+      <p class="captial-ornate">
+         <span class="I">I</span><span class="smallcaps">t was in</span>
+         1109 that monks came from near Chartres in France led by St Bernard of Thiron (later of Cluny) and founded an abbey and priory church in Hamble. It has been a place of worship ever since and is now renowned as one of the most archaeologically and historically interesting medieval churches in Hamp-shire.  It contains fine examples of Norman architecture and fascinating memorials as well as a wealth of 19th century stained glass.
+      </p>
+    </div>
+    <div class="right"></div>
+  </div>
+  <div class="bottom">
+    <p>
+      The association with Thiron in France remains to this day.  Each year a few of our church family visit, reinforcing the links we have with the congrega- tion of the mother church of the Benedictine monks who founded the church in Hamble. 
+    </p>
+  </div>
+</section>
+<section>
+  <div class="photos"></div>
+</section>
+<section>
+  <div class="bottom-wrapper clearFix">
+    <div class="left">
+      <p>
+        Some splendid features have been added in recent years.  A glorious new stained glass west window was installed in 2001 depicting our founder St. Bernard against a delightful view of the Hamble River with the Isle of Wight beyond.  Major restoration works have also been undertaken, including a new roof, stonework around the windows and several of the stained glass windows themselves have been repaired. The church is now in an excellent state of repair considering its age.
+      </p>
+    </div>
+    <div class="right">
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="left">
+    </div>
+    <div class="right">
+      <p>
+        There is a large (closed) churchyard in front of  the church. Burials and interments of ashes now take place in the adjacent Parish Burial Ground  which is managed by Hamble Parish Council.
+      </p>
+      <p>
+        A booklet containing a detailed  and guide to St Andrew’s is available at the back of the church.
+      </p>
+    </div>
   </div>
 </section>
 

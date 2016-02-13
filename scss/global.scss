@@ -1,6 +1,8 @@
 @import "compass/css3";
 @import "normalize";
 @import "bits";
+@import "weddings-baptisms";
+@import "children";
 
 
 //-------------------------------------------- HTML Body Page-wrap
@@ -251,6 +253,17 @@ header {
     &.whatson{
       background: url("../images/whatson--header.jpg") center left no-repeat;
       background-size: 100% auto;
+    }
+    &.weddings-and-baptisms {
+      background: url("../images/weddings-and-baptisms--header.jpg") no-repeat scroll 0 -70px / 100% auto;
+    }
+    
+    &.children {
+      background: url("../images/children--header.jpg") no-repeat scroll 0 -25px / 100% auto;
+    }
+    
+    &.community{
+      background: url("../images/community--header.jpg") no-repeat scroll 0 -2px / 100% auto;
     }
   }
 
@@ -1477,7 +1490,7 @@ body.home {
 
 
 //------------------------------------------------------ about
-body.page-id-5 {
+body.page-id-4 {
   div.page-wrap {
     section {
       border-bottom: 1px solid #979797;
@@ -1951,6 +1964,207 @@ body.page-id-5 {
           font-size: 0.94em;
         }
       }
+
+      h1.cs-header{
+        color: #646464;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      input {
+        display: none;
+      }
+
+      //Show and Hide Dropdown
+      input[type="radio"][name="bio3"]:checked ~ .m3 {
+          height: 250px;
+          padding-bottom: 20px;
+      }
+
+      //Show Appropriate Bio
+      input#bio3-left:checked ~ .modal-info .bio3:nth-of-type(1) {
+        display: block;
+      }
+      input#bio3-right:checked ~ .modal-info .bio3:nth-of-type(2) {
+        display: block;
+      }
+
+      //Show Appropriate arrow
+      input#bio3-left:checked ~ .wrapper .person .arrow.bio3-left {
+        display: block;
+      }
+      input#bio3-right:checked ~ .wrapper .person .arrow.bio3-right {
+        display: block;
+      }
+      div.wrapper {
+        width: 48%;
+        margin: 20px auto 15px;
+
+        div.grid-1-2 {
+          width: 48%;
+          div.person {
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+
+            label {
+              width: 100%;
+              height: 100%;
+              z-index: 2;
+              margin: auto auto;
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              bottom: 0px;
+              left: 0px;
+              z-index: 3;
+              text-shadow: 0 1px 0 black;
+              
+              &.zoom {
+                color: white;
+                max-width: 210px;
+                height: 112%;
+                opacity: 0;
+                cursor: pointer;
+                position: absolute;
+                top: -7%;
+                left: 50%;
+                @include transform(translateX(-50%));
+                box-shadow: 0px 3px 5px $personBoxShadow;
+                border-radius: 8px;
+                
+                &:hover {
+                  opacity: 0.8;
+                }
+                &:active {
+                  box-shadow: 0 2px 3px $personBoxShadow;
+                }
+                &:before {
+                  width: 10%;
+                  height: 10%;
+                  position: absolute;
+                  top: 27%;
+                  right: 51%;
+                  font-size: 4em;
+                  z-index: 5;
+                }
+              }
+            }
+            figure {
+              border: 1px solid #979797;
+              border-radius: 100%;
+              box-shadow: 0 3px 6px #000000 inset;
+              height: 200px;
+              margin: 0 auto;
+              width: 200px;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+             
+              &:active {
+                .modal-info{
+                  height: 280px;
+                }
+              }
+              &.photo-choir {
+                background: url("../images/choir.jpg") no-repeat center center / 100% auto;
+              }
+              &.photo-servers {
+                background: url("../images/servers.jpg") no-repeat center center / 100% auto;
+              }
+            }
+            div.text{
+              display: table;
+              margin: 0 auto;
+              p {
+                display: inline-block;
+                z-index: 2;
+                &:first-of-type{
+                  //Name
+                  color: $mainTextColor;
+                  font-size: 1.5em;
+                  margin: 10px auto 2px;
+                  position: relative;
+                }
+                &:last-of-type{
+                  //Title
+                  color: $mainTextColor*1.5;
+                  font-size: 1em;
+                  font-style: italic;
+                  margin: 0;
+                  position: relative;
+                }
+              }
+            }
+            div.arrow {
+              width: 22px;
+              height: 22px;
+              background-color: #616161;
+              box-shadow: 11px 11px 7px -5px black inset;
+              position: absolute;
+              @include transform(rotate(45deg));
+              right: 45%;
+              bottom: -30px;
+              display: none;
+              z-index: 1;
+            }
+          }
+        }
+      }
+      div.modal-info {
+        height: 0px;
+        background-color: #626262;
+        box-shadow: inset 0 12px 8px -5px black, inset 0 -80px 60px -60px rgba(white, 0.2);
+        position: relative;
+        transition: height 0.3s ease 0s;
+        overflow: hidden;
+    
+        div.close {
+          border: 1px solid transparent;
+          border-radius: 4px;
+          cursor: pointer;
+          opacity: 0.5;
+          padding: 5px 7px;
+          position: absolute;
+          right: 20px;
+          top: 20px;
+          color: white;
+    
+          &:hover {
+            opacity: 0.8;
+            border: 1px solid #454545;
+          }
+          &:active {
+            color: #ccc;
+            background-color: #565656;
+            box-shadow: inset 0 2px 4px rgba(black, 0.5);
+          }
+        }
+        div.bio3 {
+          display: none;
+          p {
+            &:first-of-type {
+              //Name
+              margin: 0 auto;
+              padding-top: 30px;
+              color: white;
+              font-size: 1.7em;
+              font-style: italic;
+              text-align: center;
+            }
+            &:last-of-type {
+              //Text
+              width: 62%;
+              padding-top: 10px;
+              color: #eaeaea;
+              font-size: 15px;
+              line-height: 1.4;
+              margin: 0 auto;
+              text-shadow: 0 -1px 0 #000000;
+            }
+          }
+        }
+      }  
       div.faith {
         article {
           width: 650px;
@@ -2086,6 +2300,42 @@ body.page-id-5 {
           }
         }
       }
+      h1.church-header{
+        text-align: center;
+        color: $mainTextColor;
+      }
+      div.top-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        div.left{
+          width: 50%;
+          display: inline-block;
+          margin-right: 50px;
+          float: left;
+        }
+        div.right{
+          display: inline-block;
+          float: right;
+          width: 22%;
+          height: 370px;
+          border: 10px solid white;
+          border-radius: 2px;
+          box-shadow: 0px 2px 3px rgba(black, 0.5);
+          background: url("../images/bernard.jpg") no-repeat center center / 100% auto;
+          position: relative;
+          &:after{
+            content: "Saint Bernard, in Hamble";
+            position: absolute;
+            bottom: -20px;
+          }
+        }
+      }
+      div.bottom-wrapper{
+        
+      }
+      div.bottom{
+
+      }
     }
   }
 }//END ABOUT
@@ -2116,7 +2366,7 @@ body.page-id-5 {
   
 
 //------------------------------------------- whats-on
-body.page-id-7 {
+body.page-id-6 {
 
   div.page-wrap {
 

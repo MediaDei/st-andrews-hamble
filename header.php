@@ -52,8 +52,8 @@
 			  <a class="home" href="/">Home</a>
 			  <a class="about" href="/about/">About</a>
 			  <a class="whats-on" href="/whats-on/">What's On</a>
-			  <div class="gallery inactive" href="#" title="Coming Soon">Weddings & Baptisms</div>
-			  <div class="catechismal inactive" href="#" title="Coming Soon">Priory Centre</div>
-			  <div class="other inactive" href="#" title="Coming Soon">Educational</div>
+			  <a class="weddings-and-baptisms" href="/weddings-and-baptisms/">Weddings/Baptisms</a>
+			  <a class="children" href="/children/">Children</a>
+			  <a class="community" href="/community/">Community</a>
 			</div></nav>
 
