@@ -136,7 +136,7 @@
         <p>Fr. Graham Whiting</p>
         <p>All of my ministry has been served in the Dioceses of Chichester and Winchester. Most recently, I served as Vicar of All Saints Findon Valley with St Peter’s High Salvington for over 12 years. 
 I have been an Associate of an Anglican religious order, The Community of the Servants of the Will of God based at Crawley Down, West Sussex, for 30 years. I have now been Parish Priest here for 16 months, and am putting into practice our Parish Profile vision: ‘Attending to God’, ‘Building Christian Community’ and ‘Commending God’s Love to the World’. I pray that people viewing this site will capture the vision and join our Church community.
-</p>
+        </p>
       </div>
       <div class="bio1">
         <p>Joan Glue</p>
@@ -196,6 +196,11 @@ I have been an Associate of an Anglican religious order, The Community of the Se
     <div class="name">Liz Jarvis</div> <div class="desc">Magazine Editor</div>
     <div class="name">Kim Quayle</div> <div class="desc">Children's work leader</div>
     <div class="name">Lillian Sediles</div> <div class="desc">PCC Secretary</div>
+    <a class="fa fa-phone-square icon" href="#"></a>
+    <span class="text">
+      Contact
+      List
+    </span>
   </div>
 
   <input class="radioButton" id="bio3-left" type="radio" name="bio3">
@@ -285,10 +290,10 @@ I have been an Associate of an Anglican religious order, The Community of the Se
 </section>
 <section>
   <h1 class="church-header">Church Building</h1>
-  <div class="top-wrapper clearFix">
+  <div class="top-wrapper">
     <div class="left">
       <p>St. Andrew’s church is more than 900 years old.</p>
-      <p class="captial-ornate">
+      <p class="capital-ornate">
          <span class="I">I</span><span class="smallcaps">t was in</span>
          1109 that monks came from near Chartres in France led by St Bernard of Thiron (later of Cluny) and founded an abbey and priory church in Hamble. It has been a place of worship ever since and is now renowned as one of the most archaeologically and historically interesting medieval churches in Hamp-shire.  It contains fine examples of Norman architecture and fascinating memorials as well as a wealth of 19th century stained glass.
       </p>
@@ -301,11 +306,11 @@ I have been an Associate of an Anglican religious order, The Community of the Se
     </p>
   </div>
 </section>
-<section>
+<section class="photos">
   <div class="photos"></div>
 </section>
 <section>
-  <div class="bottom-wrapper clearFix">
+  <div class="bottom-wrapper">
     <div class="left">
       <p>
         Some splendid features have been added in recent years.  A glorious new stained glass west window was installed in 2001 depicting our founder St. Bernard against a delightful view of the Hamble River with the Isle of Wight beyond.  Major restoration works have also been undertaken, including a new roof, stonework around the windows and several of the stained glass windows themselves have been repaired. The church is now in an excellent state of repair considering its age.
@@ -314,17 +319,12 @@ I have been an Associate of an Anglican religious order, The Community of the Se
     <div class="right">
     </div>
   </div>
-  <div class="wrapper">
-    <div class="left">
-    </div>
-    <div class="right">
-      <p>
-        There is a large (closed) churchyard in front of  the church. Burials and interments of ashes now take place in the adjacent Parish Burial Ground  which is managed by Hamble Parish Council.
-      </p>
-      <p>
-        A booklet containing a detailed  and guide to St Andrew’s is available at the back of the church.
-      </p>
-    </div>
+  <div class="bottom-2">
+    <p>
+      There is a large (closed) churchyard in front of  the church. Burials and interments of ashes now take place in the adjacent Parish Burial Ground  which is managed by Hamble Parish Council.
+
+      A booklet containing a detailed  and guide to St Andrew’s is available at the back of the church.
+    </p>
   </div>
 </section>
 
@@ -366,7 +366,6 @@ I have been an Associate of an Anglican religious order, The Community of the Se
   var map = L.mapbox.map('mapBox', 'fosedile.mkg70eb0').setView([50.8595,-1.3203], 15);
   map.scrollWheelZoom.disable();
 </script>
-
 
 
 <?php get_footer(); ?>

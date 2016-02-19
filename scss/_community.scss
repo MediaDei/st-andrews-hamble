@@ -1,0 +1,205 @@
+section.community{
+	padding: 120px 0px 40px;
+	border-bottom: 1px solid #6D625B;
+	p{
+		color: #484848;
+	}
+	div.wrapper{
+		width: 750px;
+		margin: 0 auto 70px;
+		position: relative;
+		div.text{
+			width: 62%;
+			&.place-2b{
+				position: absolute;
+				top: 35px;
+				right: -60px;
+			}
+			h2{
+				border-bottom: 2px solid rgba(black, 0.5);
+				color: #484848;
+				margin: 0px;
+				font-size: 1.8em;
+				font-style: italic;
+			}
+			p{
+				line-height: 1.3;
+				white-space: pre-line;
+				color: #5A5A5A;
+				margin-top: 0px;
+			}
+		}
+		div.image{
+			width: 42%;
+			height: 260px;
+			box-shadow:	0px 23px 7px -19px rgba(black,0.5),
+									inset 4px 4px 0px #F4DC97,
+									inset -4px -4px 0px #F4DC97,
+									inset -1px -1px 1px 5px #FFFFFF,
+									inset 0px 1px 4px 4px rgba(black,0.5);
+			border: 2px solid #CBBFA5;
+
+			&.cafe{
+				background: url("../images/cafe.jpg") no-repeat center center / 120% auto;
+				position: absolute;
+				top: -35px;
+				right: -60px;
+			}
+			&.place-2b{
+				background: url("../images/place-2b.jpg") no-repeat center center / 120% auto;
+			}
+		}
+	}
+	div.support-group{
+		width: 95%;
+		height: 160px;
+		background-color: #312F2B;
+		color: #E8E8E8;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		border-radius: 10px;
+		padding: 20px 0px 40px 40px;
+		&:before{
+			content: "";
+			width: 160px;
+			height: 160px;
+			position: absolute;
+			top: 71%;
+			left: 50%;
+			@include transform (translateX(-50%) translateY(-50%));
+			background: url("../images/candle.png") no-repeat center center / 100% auto;
+		}
+		div{
+			display: inline-block;
+			&.left{
+				width: 38%;
+				margin-right: 220px;
+				h2{
+					width: 80%;
+					margin: 0px auto;
+					font-style: italic;
+					border-bottom: 2px solid white;
+					color: white;
+					text-align: center;
+				}
+				p{
+					color: white;
+					font-size: 0.9em;
+					text-align: center;
+				}
+			}
+			&.right{
+				width: 35%;
+				p{
+					margin: 0px;
+					font-size: 1em;
+					line-height: 1.3;
+					color: white;
+					position: relative;
+					top: 20px;
+				}
+			}
+		}
+	}
+	div.social-fund{
+		margin: 80px auto 0px;
+		width: 42%;
+		h2{
+			margin: 0px;
+			font-style: italic;
+			font-size: 1.8em;
+			text-align: center;
+			border-bottom: 2px solid #484848;
+			color: #484848;
+		}
+		p{
+			line-height: 1.3;
+		}
+	}
+}
+section.community.grey-bg{
+	padding: 70px 0px;
+	margin-bottom: 50px;
+	h1{
+		text-align: center;
+		font-size: 2.5em;
+		color: #615F5C;
+	}
+	p{
+		width: 45%;
+		margin: 0 auto;
+		padding: 50px 0px;
+		line-height: 1.3;
+	}
+	div.wrapper{
+		width: 800px;
+		margin: 20px auto;
+		div{
+			display: inline-block;
+			width: 47.5%;
+			height: 230px;
+			border: 10px solid white;
+			box-shadow: 0px 1px 12px 0px rgba(black,0.5);
+			&.ph1{
+				margin-right: 30px;
+				background: url("../images/wedding-small.jpg") no-repeat center center / 120% auto;
+
+			}
+			&.ph2{
+				background: url("../images/dining-small.jpg") no-repeat center center / 120% auto;
+			}
+			&.ph3{
+				margin-right: 30px;
+					background: url("../images/children-sitting.jpg") no-repeat center center / 120% auto;
+				
+			}
+			&.ph4{
+				background: url("../images/tea.jpg") no-repeat center center / 120% auto;
+			}
+		}
+		&.floor-plan{
+			background: url("../images/floor-plan.png") no-repeat center left / 75% auto;
+			width: 500px;
+			height: 300px;
+			margin: 0px 0px 0px 170px;
+			p{
+				padding: 20px;
+				line-height: 1.3;
+				font-size: 0.9em;
+				box-shadow: 0px 1px 20px 0px rgba(black,0.2);
+				position: relative;
+				top: 58px;
+				left: 220px;
+				width: 81%;
+				z-index: 1;
+				&:before{
+					content: "";
+					background: white;
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					background: white;
+					opacity: 0.9;
+					z-index: -1;
+				} 
+			}
+		}
+	}
+	p.info{
+		white-space: pre-line;
+		text-align: center;
+		padding-top: 40px;
+		position: relative;
+		span.arrow{
+			position: absolute;
+			top: 60px;
+			left: 0px;
+			font-size: 5.5em;
+			color: #EDE8DB;
+			text-shadow: 0px -1px 0px rgba(black, 0.3), 0px -1px 0px rgba(white, 0.5);
+		}
+	}
+}

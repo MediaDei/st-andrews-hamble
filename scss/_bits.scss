@@ -1,5 +1,9 @@
 $personBoxShadow: rgba(black, 0.6);
 
+.grey-bg{
+  background: #FAFAFA;
+} 
+
 // utility grids for About > Staff; put this in bits (can be used for any 3-column layout)
 
 .grid-2-3 {
@@ -64,9 +68,105 @@ $personBoxShadow: rgba(black, 0.6);
   display: none;
 }
 
+//font-awesome icons for contact information
+span.phone-number{
+  &:before{
+    content: "\f098";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: inherit;
+    font-size: inherit;
+    padding: 0em 0.5em;
+  }
+}
+span.email-address{
+  &:before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: inherit;
+    font-size: inherit;
+    padding: 0em 0.5em;
+  }
+}
 
+//ornate letters
+p.capital-ornate {
+  text-indent: -10px;
 
+  .A {
+    float: left;
+    line-height: 0;
+    color: transparent;
+    background: url("../images/_ornateA.jpg") no-repeat scroll left top / 100% auto white;
+    margin: 3px 12px 0 0;
+    font-size: 5em;
+    padding: 39px 7px 29px;
+  }
+  .C {
+    float: left;
+    line-height: 0;
+    color: transparent;
+    background: url("../images/_ornateC.jpg") no-repeat scroll left top / 100% auto white;
+    margin: 2px 12px 0 0;
+    font-size: 5em;
+    padding: 39px 10px 31px;
+  }
+  .D {
+    float: left;
+    line-height: 0;
+    color: transparent;
+    background: url("../images/_ornateD.jpg") no-repeat scroll left top / 100% auto white;
+    margin: 3px 12px 0 0;
+    font-size: 5.1em;
+    padding: 40px 11px 30px;
+  }
+  .F {
+    float: left;
+    line-height: 0;
+    color: transparent;
+    background: url("../images/_ornateF.jpg") no-repeat scroll left top / 100% auto white;
+    margin: 3px 12px 0 0;
+    font-size: 5.1em;
+    padding: 40px 18px 26px;
+  }
+  .I {
+    float: left;
+    line-height: 0;
+    color: transparent;
+    background: url("../images/_ornateI.jpg") no-repeat scroll left top / 100% auto white;
+    margin: 3px 12px 0 0;
+    font-size: 5.1em;
+    padding: 40px 28px 26px;
+  }
+  .N {
+    float: left;
+    line-height: 0;
+    color: transparent;
+    background: url("../images/_ornateN.jpg") no-repeat scroll left top / 100% auto white;
+    margin: 3px 12px 0 0;
+    font-size: 4.9em;
+    padding: 38px 12px 31px;
+  }
+  .T {
+    float: left;
+    line-height: 0;
+    color: transparent;
+    background: url("../images/_ornateT.jpg") no-repeat scroll left top / 100% auto white;
+    margin: 4px 11px 0 0;
+    font-size: 5.5em;
+    padding: 39px 12px 29px;
+  }
+}
 
+.smallcaps {
+  font-family: "SortsMillGoudy-SC", "SortsMillGoudy", serif;
+  letter-spacing: 0.5px;
+}
 
 //Font-Stacks
 @font-face {
@@ -82,6 +182,11 @@ $personBoxShadow: rgba(black, 0.6);
   src: url('../assets/GoudyStM-Italic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('../assets/GoudyStM-Italic-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
   font-style: italic;
+}
+@font-face {
+  font-family: 'SortsMillGoudy-SC';
+  src: url('../fonts/Goudy_OldStyle_SSi_Small_Caps_.ttf')  format('truetype'); 
+  font-style: normal;
 }
 
 //Nav
