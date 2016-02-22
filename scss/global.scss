@@ -415,6 +415,12 @@ footer {
 				font-style: italic;
 				display: block;
 			}
+      a.email-address,a.phone-number{
+        color: #cac4c2;
+        &:before{
+          display: none;
+        }
+      }
 		}
 
 		h3.address {
@@ -1509,7 +1515,8 @@ body.page-id-4 {
                             rgba(#80755F,0.2) 90%));
         box-shadow: inset 0 10px 8px -6px rgba(black,0.8),
                     inset 0 -6px 8px -6px rgba(black,0.5);
-        z-index: -1;
+        position: relative;//required for z-index to work!
+        z-index: -3;
       } 
       &:last-of-type {
         border-bottom: 0px solid $bottomBorder;
@@ -1680,7 +1687,7 @@ body.page-id-4 {
               line-height: 1.1;
               
               a {
-                color: #3886c1;
+                //color: #3886c1;
                 padding: 0px;
               }
               
@@ -2346,6 +2353,29 @@ body.page-id-4 {
       h1.church-header{
         text-align: center;
         color: $mainTextColor;
+        border-bottom: 1px solid #DCDCDC;
+        width: 37%;
+        margin: 0 auto;
+        position: relative;
+        &:before{
+          content: "";
+          position: absolute;
+          left: 0px;
+          top: -10px;
+          background: url("../images/about-ornament.png") no-repeat center center / 100% auto;
+          width: 60px;
+          height: 50px;
+        }
+        &:after{
+          content: "";
+          position: absolute;
+          right: 0px;
+          top: -10px;
+          background: url("../images/about-ornament.png") no-repeat center center / 100% auto;
+          @include transform (scaleX(-1));
+          width: 60px;
+          height: 50px;
+        }
       }
       div.top-wrapper{
         width: 80%;
@@ -2365,8 +2395,8 @@ body.page-id-4 {
             height: 10px;
             position: absolute;
             right: 9px;
-            width: 50%;
-            @include transform (rotate(2deg));
+            width: 97%;
+            @include transform (rotate(1deg));
             z-index: -1;
           }
           &:after{
@@ -2375,9 +2405,9 @@ body.page-id-4 {
             content: "";
             height: 90%;
             position: absolute;
-            right: 4px;
+            right: 2px;
             width: 10px;
-            @include transform (rotate(-2deg));
+            @include transform (rotate(-1deg));
             z-index: -1;
           }
           p{
@@ -2427,13 +2457,13 @@ body.page-id-4 {
         background: white;
         box-shadow: -1px 0px 5px -4px rgba(black, 0.3);
         &:before{
-          top: 7px;
-          box-shadow: 0 -8px 9px 1px rgba(black, 0.3);
+          top: 4px;
+          box-shadow: 0 -6px 9px 1px rgba(black, 0.3);
           content: "";
           height: 10px;
           position: absolute;
           left: 18px;
-          width: 40%;
+          width: 96%;
           @include transform (rotate(1deg));
           z-index: -1;
         }
@@ -2453,14 +2483,13 @@ body.page-id-4 {
         }
       }
       div.photos{
-        background: rgba(0, 0, 0, 0) url("../images/fount.jpg") no-repeat center center / 100% auto;
+        background: rgba(0, 0, 0, 0) url("../images/fount.jpg") no-repeat center center / 110% auto;
         border: 10px solid #f6f6f6;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5), 2px 0 2px rgba(0, 0, 0, 0.1);
         height: 300px;
         margin: 0 auto;
         padding: 10px;
         position: relative;
-        z-index: 3;
         width: 450px;
         &:before{
           border: 10px solid #f6f6f6;
@@ -2472,7 +2501,7 @@ body.page-id-4 {
           top: -13px;
           transform: rotate(2deg);
           width: 100%;
-          z-index: 2;
+          z-index: -1;
         }
         &:after{
           border: 10px solid #f6f6f6;
@@ -2484,12 +2513,12 @@ body.page-id-4 {
           top: -11px;
           transform: rotate(-2deg);
           width: 100%;
-          z-index: 1;
+          z-index: -2;
         }
       }
       div.bottom-wrapper{
         width: 80%;
-        margin: 70px auto 200px;
+        margin: 70px auto 230px;
         position: relative;
         div.left{
           width: 65%;
@@ -2505,8 +2534,8 @@ body.page-id-4 {
             height: 10px;
             position: absolute;
             right: 9px;
-            width: 50%;
-            @include transform (rotate(2deg));
+            width: 97%;
+            @include transform (rotate(1deg));
             z-index: -1;
           }
           &:after{
@@ -2515,9 +2544,9 @@ body.page-id-4 {
             content: "";
             height: 90%;
             position: absolute;
-            right: 4px;
+            right: 2px;
             width: 10px;
-            @include transform (rotate(-2deg));
+            @include transform (rotate(-1deg));
             z-index: -1;
           }
           p{
@@ -2525,9 +2554,9 @@ body.page-id-4 {
             line-height: 1.3;
             &:after{
               content: "";
-              bottom: -170px;
+              bottom: -180px;
               height: 120px;
-              left: 260px;
+              left: 350px;
               position: absolute;
               width: 80px;
               background: url("../images/header-seal-small.png") no-repeat center center / 100% auto;
@@ -2553,20 +2582,20 @@ body.page-id-4 {
         }
       }
       div.bottom-2{
-        width: 53%;
-        margin: 0 auto;
+        width: 59%;
+        margin: 0px 0px 0px 330px;
         padding: 0px 20px;
         border-top: 2px solid #E5D0A0;
         position: relative;
         background: white;
         &:before{
-          top: 1px;
+          top: 3px;
           box-shadow: 0 -1px 12px 0 rgba(black, 0.3);
           content: "";
           height: 10px;
           position: absolute;
           left: 1px;
-          width: 40%;
+          width: 96%;
           @include transform (rotate(1deg));
           z-index: -1;
         }
@@ -2595,7 +2624,7 @@ body.page-id-4 {
             left: -250px;
             position: absolute;
             top: -106px;
-            width: 33%;
+            width: 30%;
             z-index: -2;
           }
         }

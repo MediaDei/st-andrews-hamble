@@ -69,28 +69,36 @@ $personBoxShadow: rgba(black, 0.6);
 }
 
 //font-awesome icons for contact information
-span.phone-number{
+a.phone-number{
+  cursor: pointer;
+  color: lighten(#0000EE,25%);
   &:before{
     content: "\f098";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    text-decoration: inherit;
-    color: inherit;
+    color: lighten(#0000EE,30%);
     font-size: inherit;
-    padding: 0em 0.5em;
+    padding: 0em 0.5em 0em 0em;
+    position: relative;
+    top: 0.2em;//for vertical center
+    display: inline-block;//remove underline
   }
 }
-span.email-address{
+a.email-address{
+  cursor: pointer;
+  color: lighten(#0000EE,25%);
   &:before{
     content: "\f0e0";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    text-decoration: inherit;
-    color: inherit;
+    color: lighten(#0000EE,30%);
     font-size: inherit;
-    padding: 0em 0.5em;
+    padding: 0em 0.5em 0em 0em;
+    position: relative;
+    top: 0.1em;//for vertical center
+    display: inline-block;//remove underline
   }
 }
 

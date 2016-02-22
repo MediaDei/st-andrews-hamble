@@ -36,11 +36,11 @@
         
         <p class="text">
           <span>Email:</span><br>
-          StAndrews.Hamble@gmail.com
+          <a class="email-address" href="mailto:StAndrews.Hamble@gmail.com">StAndrews.Hamble@gmail.com</a>
         </p>
         <p class="text">
           <span>Phone:</span><br>
-          02380 452148
+          <a class="phone-number" href="tel:02380452148">02380 452148</a>
         </p>
       </div>
             

@@ -12,7 +12,7 @@
 			<p>
 				Every other Tuesday, 10.30 am – 12.45 pm in the Priory Centre (except August)
 
-				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall, <span class="phone-number">023 8045 5794</span>.  
+				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall, <a class="phone-number" href="tel:023 8045 5794">023 8045 5794</a>.  
 			</p>
 		</div>
 		<div class="image cafe"></div>
@@ -25,7 +25,7 @@
 			<p>
 				Every other Tuesday, 10.30 am – 12.45 pm in the Priory Centre (except August)
 
-				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall, <span class="phone-number">023 8045 5794</span>.  
+				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall, <a class="phone-number" href="tel:02380455794">023 8045 5794</a>.  
 			</p>
 		</div>
 	</div>
@@ -38,7 +38,7 @@
 		</div>
 		<div class="right">
 			<p>
-				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith <span class="phone-number">023 8045 2988</span>. 
+				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith <a class="phone-number" href="02380452988">023 8045 2988</a>. 
 			</p>
 		</div>
 	</div>
@@ -47,6 +47,10 @@
 		<p>
 			St Andrew’s has a reputation for offering people a good social programme in a safe environment and at affordable prices  - from  coffee, cakes and quizzes to formal dinners and concerts. Keep an eye on the website for upcoming events – we look forward to seeing you there!
 		</p>
+	</div>
+	<div class="slider">
+		<?php echo do_shortcode('[metaslider id=15]'); ?>
+	</div>
 </section>
 <section class="community grey-bg">
 	<h1>The Priory Centre</h1>
@@ -69,8 +73,8 @@
 	<p class="info">
 		<span class="arrow fa fa-reply-all fa-flip-horizontal"></span>For more information and hire rates and 
 		bookings please contact: 
-		Jeff Law tel. <span class="phone-number">023 8045 4299</span>, 
-		e-mail: <span class="email-address">jenjeff@btinternet.com</span>
+		Jeff Law tel. <a class="phone-number" href="tel:02380454299">023 8045 4299</a>, 
+		e-mail: <a class="email-address" href="mailto:jenjeff@btinternet.com">jenjeff@btinternet.com</a>
 	</p>
 </section>
 <?php get_footer(); ?>

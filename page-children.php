@@ -12,7 +12,7 @@
 			<p>
 				1st Sunday in the month at 11.30 am 
 
-				A warm welcome awaits you at this short (half an hour maximum) church service  especially for children.  We sing songs, hear a scripture reading using a children’s bible, have some prayers and a simple talk.  Contact Fr Graham Whiting for more information <span class="phone-number">023 8045 2148</span>.
+				A warm welcome awaits you at this short (half an hour maximum) church service  especially for children.  We sing songs, hear a scripture reading using a children’s bible, have some prayers and a simple talk.  Contact Fr Graham Whiting for more information <a class="phone-number" href="tel:02380452148">023 8045 2148</a>.
 			</p>
 		</div>
 		<div class="image lighthouse"></div>
@@ -25,7 +25,7 @@
 			<p>
 				Wednesdays at 5.30 pm in church
 			
-				Children age 6 – 8 can learn to sing in a fun and friendly way with Lillian Sediles, our professional children’s choir conductor and vocalist from the United States.  Free to join and no audition!  Contact Lillian for more information <span class="phone-number">07480 122156</span>.
+				Children age 6 – 8 can learn to sing in a fun and friendly way with Lillian Sediles, our professional children’s choir conductor and vocalist from the United States.  Free to join and no audition!  Contact Lillian for more information <a class="phone-number" href="tel:07480122156">07480 122156</a>.
 			</p>
 		</div>
 	</div>
@@ -38,7 +38,7 @@
 			
 				Popular activity group for 0 – 5 year olds. Come & join in with cooking, art, story time and outdoor play in our enclosed garden and meet other mums.  Monthly service in church usually the second Wednesday of the month. Bring a packed lunch! Biscuits and hot refreshments are also offered! 
 			
-				Check out our Facebook page by searching “Cherubs Hamble”. Contact Vicky McPherson for more information  <span class="phone-number">023 8045 6609</span>
+				Check out our Facebook page by searching “Cherubs Hamble”. Contact Vicky McPherson for more information  <a class="phone-number" href="tel:02380456609">023 8045 6609</a>
 			</p>
 		</div>
 		<div class="image cherubs"></div>
@@ -53,7 +53,7 @@
 			
 				Our fun and friendly Sunday school.  After singing, prayer, teaching and activities we join the rest of the congregation in church for a blessing and the last two hymns.  Children of any age are welcome, although under 3’s need to be accompanied.
 			
-				Contact Kim Quayle for more information  <span class="phone-number">07813 782336</span>  
+				Contact Kim Quayle for more information  <a class="phone-number" href="tel:07813782336">07813 782336</a>  
 			</p>
 		</div>
 	</div>

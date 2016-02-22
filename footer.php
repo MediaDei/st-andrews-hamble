@@ -57,8 +57,8 @@
 				</style>
 
 				<p class="details">
-					<span>Email:</span> StAndrews.Hamble@gmail.com<br><br>
-					<span>Phone:</span> 02380 452148
+					<span>Email:</span> <a class="email-address" href="mailto:StAndrews.Hamble@gmail.com">StAndrews.Hamble@gmail.com</a><br><br>
+					<span>Phone:</span> <a class="phone-number" href="tel:02380 452148">02380 452148</a>
 				</p>
 
 				<h3 class="address">Address</h3>
