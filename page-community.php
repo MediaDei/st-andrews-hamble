@@ -38,7 +38,7 @@
 		</div>
 		<div class="right">
 			<p>
-				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith <a class="phone-number" href="02380452988">023 8045 2988</a>. 
+				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith <a class="phone-number" href="tel:02380452988">023 8045 2988</a>. 
 			</p>
 		</div>
 	</div>
@@ -49,7 +49,7 @@
 		</p>
 	</div>
 	<div class="slider">
-		<?php echo do_shortcode('[metaslider id=15]'); ?>
+		<?php echo do_shortcode('[rev_slider alias="community"]'); ?>
 	</div>
 </section>
 <section class="community grey-bg">
