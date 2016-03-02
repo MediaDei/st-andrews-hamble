@@ -196,7 +196,8 @@ I have been an Associate of an Anglican religious order, The Community of the Se
     <div class="name">Liz Jarvis</div> <div class="desc">Magazine Editor</div>
     <div class="name">Kim Quayle</div> <div class="desc">Children's work leader</div>
     <div class="name">Lillian Sediles</div> <div class="desc">PCC Secretary</div>
-    <a class="fa fa-phone-square icon" href="#"></a>
+    <a href="#church-contact-lightbox" class="fa fa-phone-square icon" href="#"></a> 
+    <!--html for lightbox is above footer-->
     <span class="text">
       Contact
       List
@@ -327,6 +328,161 @@ I have been an Associate of an Anglican religious order, The Community of the Se
     </p>
   </div>
 </section>
+<div id="church-contact-lightbox">
+  <a class="close" href="#close-lightbox"><span class="fa fa-close"></span></a>
+  <span id="close-lightbox"></span>
+  <h2>St. Andrew's Parochial Church Council (PCC)</h2>
+  <table>
+    <tr>
+      <td>
+        Fr. Graham Whiting
+      </td>
+      <td>Baptisms; Weddings; Funerals</td>
+      <td><a class="phone-number" href="tel:023 8045 2148">023 8045 2148</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        David Winser
+      </td>
+      <td>Licensed Lay Minister</td>
+      <td><a class="phone-number" href="tel:0777 192 2243">0777 192 2243</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Joan Glue
+      </td>
+      <td>Licensed Lay Minister</td>
+      <td><a class="phone-number" href="tel:023 8045 7053">023 8045 7053</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Kay Baker
+      </td>
+      <td>Churchwarden; Fete and Fayre Co-ordinator</td>
+      <td><a class="phone-number" href="tel:023 8045 4745">023 8045 4745</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Ramond Brown
+      </td>
+      <td>Churchwarden</td>
+      <td><a class="phone-number" href="tel:023 8045 2291">023 8045 2291</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Charles Aspinell
+      </td>
+      <td>Finance; Deanery Synod Rep.</td>
+      <td><a class="phone-number" href="tel:01489 571636">01489 571636</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Annette de Bary
+      </td>
+      <td>Choir</td>
+      <td><a class="phone-number" href="tel:023 8045 8452">023 8045 8452</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Helen Griffiths
+      </td>
+      <td>Organist; PCC Vice Chairman; Deanery Synod Rep.</td>
+      <td><a class="phone-number" href="tel:023 8045 8452">023 8045 8452</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Grant Hearn
+      </td>
+      <td>Friends of St. Andrew's</td>
+      <td><a class="phone-number" href="tel:023 8045 6265">023 8045 6265</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Liz Jarvis
+      </td>
+      <td>"New Waves" Magazine Editor</td>
+      <td><a class="phone-number" href="tel:023 8045 2726">023 8045 2726</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Kim Quayle
+      </td>
+      <td>Youth Work and Beacons</td>
+      <td><a class="phone-number" href="tel:07813 782336">07813 782336</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Lillian Sediles
+      </td>
+      <td>Secretary</td>
+      <td><a class="phone-number" href="tel:07480 122156">07480 122156</a></td>
+    </tr>
+
+    <tr>
+      <td>
+        Terry Smith
+      </td>
+      <td>Funeral Verger; Wedding Verger</td>
+      <td><a class="phone-number" href="tel:023 8045 2988">023 8045 2988</a></td>
+    </tr>
+  </table>
+  <p>Lay Members: Bert Allwood; Colin Glue; Elizabeth Lear; Diana Richings; Peter Roberts</p>
+  <h3>Other Contacts</h3>
+  <table>
+    <tr>
+      <td>Pat Gillman</td>
+      <td>"New Waves" Magazine Distribution</td>
+      <td><a class="phone-number" href="tel:023 8045 2422">023 8045 2422</a></td>
+    </tr>
+
+    <tr>
+      <td>Brian Howlett</td>
+      <td>Health and Safety</td>
+      <td><a class="phone-number" href="tel:023 9283 2740">023 9283 2740</a></td>
+    </tr>
+
+    <tr>
+      <td>Jeff Law</td>
+      <td>Priory Centre Bookings</td>
+      <td><a class="phone-number" href="tel:023 8045 4299">023 8045 4299</a></td>
+    </tr>
+
+    <tr>
+      <td>Vicky McPherson</td>
+      <td>Cherubs</td>
+      <td><a class="phone-number" href="tel:023 8178 6609">023 8178 6609</a></td>
+    </tr>
+
+    <tr>
+      <td>Joan Marshall</td>
+      <td>St. Andrew's Cafe</td>
+      <td><a class="phone-number" href="tel:023 8045 5794">023 8045 5794</a></td>
+    </tr>
+
+    <tr>
+      <td>Heather Smith</td>
+      <td>Home Visiting Co-ordinator; Bereavement Support Group; Wedding Verger</td>
+      <td><a class="phone-number" href="tel:023 8045 2988">023 8045 2988</a></td>
+    </tr>
+
+    <tr>
+      <td>Pat Stephens</td>
+      <td>Electoral Roll Officer</td>
+      <td><a class="phone-number" href="tel:023 8045 4181">023 8045 4181</a></td>
+    </tr>
+  </table>
+</div>
 
 
 <!--dropdown-->

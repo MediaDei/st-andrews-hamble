@@ -46,7 +46,7 @@ section.community{
 				right: -60px;
 			}
 			&.place-2b{
-				background: url("../images/place-2b.jpg") no-repeat center center / 120% auto;
+				background: url("../images/place-2-be.jpg") no-repeat 0px center / 120% auto;
 			}
 		}
 	}
@@ -118,8 +118,6 @@ section.community{
 		}
 	}
 	div.slider{
-		width: 80%;
-		height: auto;
 		margin: 0 auto;
 	}
 }
@@ -148,7 +146,7 @@ section.community.grey-bg{
 			box-shadow: 0px 1px 12px 0px rgba(black,0.5);
 			&.ph1{
 				margin-right: 30px;
-				background: url("../images/wedding-small.jpg") no-repeat center center / 120% auto;
+				background: url("../images/kitchen.jpg") no-repeat center center / 120% auto;
 
 			}
 			&.ph2{
@@ -167,15 +165,15 @@ section.community.grey-bg{
 			background: url("../images/floor-plan.png") no-repeat center left / 75% auto;
 			width: 500px;
 			height: 300px;
-			margin: 0px 0px 0px 170px;
+			margin: 40px 0px 40px 170px;
 			p{
 				padding: 20px;
 				line-height: 1.3;
 				font-size: 0.9em;
 				box-shadow: 0px 1px 20px 0px rgba(black,0.2);
 				position: relative;
-				top: 58px;
-				left: 220px;
+				top: 88px;
+				left: 260px;
 				width: 81%;
 				z-index: 1;
 				&:before{

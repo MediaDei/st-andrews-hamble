@@ -248,7 +248,6 @@
 				<h2>We'll keep in touch!</h2>
 			</div>
 		</div>
-		
 	</div>
 </section>
 <section class="greyBackground">
