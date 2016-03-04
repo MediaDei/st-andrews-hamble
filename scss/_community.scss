@@ -98,6 +98,13 @@ section.community{
 					color: white;
 					position: relative;
 					top: 20px;
+					a{
+						color: white;
+						opacity: 0.8;
+						&:before{
+							padding-left: 0em;
+						}
+					}
 				}
 			}
 		}

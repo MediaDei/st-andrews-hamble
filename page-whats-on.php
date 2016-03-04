@@ -240,12 +240,7 @@
 			<div class="otherTimesDiv">
 				<p>OTHER TIMES</p>
 			</div>
-			<article class="clear otherArticle">
-				<h2>Sunday, 8am</h2>
-				<p class="otherP">
-					Said Eucharist (1st & 3rd Sundays)
-				</p>
-			</article>
+
 			<article class="clear otherArticle">
 				<h2>Tuesday, 7pm</h2>
 				<p class="otherP">
@@ -383,7 +378,7 @@
 		
 		<h2>Weddings, Baptisms & Funerals</h2>
 
-		<p class="caveat">All enquiries should be made direct to our Parish Priest, Fr Graham Whiting, tel: 023 8045 2148, e-mail: <a href="mailto:grahamwhiting@yahoo.com">grahamwhiting@yahoo.com</a>.</p>
+		<p class="caveat">All enquiries should be made direct to our Parish Priest, Fr Graham Whiting: <a class="phone-number" href="tel:023 8045 2148">023 8045 2148</a>|<a class="email-address" href="mailto:grahamwhiting@yahoo.com">grahamwhiting@yahoo.com</a>.</p>
 		
 		<article class="clear">
 			<h1>Weddings</h1>
@@ -412,28 +407,28 @@
 		<article class="clear">
 			<h1>Beacons</h1>
 			<p>
-				Every Sunday during the 10 am service (in the Priory Centre)<br>Our fun and friendly Sunday school for the children of the church. After singing, prayer, teaching and activities, we join the rest of the congregation in church for a blessing and the last two hymns. Children of any age are welcome, although under 3’s are accompanied. Contact Kim Quayle at 0713 782336 for more information.
+				Every Sunday during the 10 am service (in the Priory Centre)<br>Our fun and friendly Sunday school for the children of the church. After singing, prayer, teaching and activities, we join the rest of the congregation in church for a blessing and the last two hymns. Children of any age are welcome, although under 3’s are accompanied. For more information, contact Kim Quayle; <a class="phone-number" href="tel:0713 782336">0713 782336</a>.
 			</p>
 		</article>
 		
 		<article class="clear">
 			<h1>Cherubs</h1>
 			<p>
-				Every Wednesday 11 am - 12:30 pm (in the Priory Centre)<br>Group for 0 - 5 year olds, very friendly and all are welcome. Join us for tea, biscuits, and children’s activity (bring your own lunch). Monthly church services usually occur on the second Wednesday of the month. Check out our <a href="https://www.facebook.com/pages/Cherubs-Hamble/896955980325738">Facebook page</a> by searching “Cherubs - Hamble.” Contact Vicky McPherson for more information at 023 8045 6609.
+				Every Wednesday 11 am - 12:30 pm (in the Priory Centre)<br>Group for 0 - 5 year olds, very friendly and all are welcome. Join us for tea, biscuits, and children’s activity (bring your own lunch). Monthly church services usually occur on the second Wednesday of the month. Check out our <a href="https://www.facebook.com/pages/Cherubs-Hamble/896955980325738">Facebook page</a> by searching “Cherubs - Hamble.” For more information, contact Vicky McPherson; <a class="phone-number" href="tel:023 8045 6609">023 8045 6609</a>.
 			</p>
 		</article>
 		
 		<article class="clear">
 			<h1>St. Andrew's Cafe</h1>
 			<p>
-				Every other Tuesday 10:30 am - 12:45 pm (in the Priory Centre)<br>Run by volunteers from the church and the village the cafe provides excellent low cost lunches and a fun meeting place for all. Any queries call 023 8045 5794.
+				Every other Tuesday 10:30 am - 12:45 pm (in the Priory Centre)<br>Run by volunteers from the church and the village the cafe provides excellent low cost lunches and a fun meeting place for all. Any queries call <a class="phone-number" href="tel:023 8045 5794">023 8045 5794</a>.
 			</p>
 		</article>
 
 		<article class="clear">
 			<h1>St. Andrew's Children’s Choir</h1>
 			<p>
-				Every Tuesday 5:30 pm - 6:30 pm (in the Church nave)<br>Lillian Sediles, a highly-acclaimed vocalist and conductor has started a children’s choir in Hamble. Children learn to sing for FREE! Any queries call 023 8045 2148. 
+				Every Tuesday 5:30 pm - 6:30 pm (in the Church nave)<br>Lillian Sediles, a highly-acclaimed vocalist and conductor has started a children’s choir in Hamble. Children learn to sing for FREE! Any queries call <a class="phone-number" href="tel:023 8045 2148">023 8045 2148</a>. 
 			</p>
 		</article>
 		
@@ -447,7 +442,7 @@
 		<article class="clear">
 			<h1>Bereavement Support Group</h1>
 			<p>
-				Every 4th Wednesday of the month from 2 - 3 pm.<br>A very informal, friendly group. We share our worries and strategies for coping with loss  over tea and biscuits. Phone Heather Smith on 023 8045 2988 for more information.
+				Every 4th Wednesday of the month from 2 - 3 pm.<br>A very informal, friendly group. We share our worries and strategies for coping with loss  over tea and biscuits. For more information, contact Heather Smith; <a class="phone-number" href="tel:023 8045 2988">023 8045 2988</a>.
 			</p>
 		</article>
 		

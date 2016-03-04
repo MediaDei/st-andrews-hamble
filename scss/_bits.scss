@@ -1,4 +1,10 @@
 $personBoxShadow: rgba(black, 0.6);
+$link-global: #002645;
+
+a{
+  color: $link-global;
+}
+
 
 .grey-bg{
   background: #FAFAFA;
@@ -71,34 +77,34 @@ $personBoxShadow: rgba(black, 0.6);
 //font-awesome icons for contact information
 a.phone-number{
   cursor: pointer;
-  color: lighten(#0000EE,25%);
+  margin-right: 0.2em;
   &:before{
     content: "\f098";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    color: lighten(#0000EE,30%);
     font-size: inherit;
-    padding: 0em 0.5em 0em 0em;
+    padding: 0em 0.2em 0em 0.5em;
     position: relative;
     top: 0.2em;//for vertical center
     display: inline-block;//remove underline
+    opacity: 0.5;
   }
 }
 a.email-address{
   cursor: pointer;
-  color: lighten(#0000EE,25%);
+  margin-right: 0.2em;
   &:before{
     content: "\f0e0";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    color: lighten(#0000EE,30%);
     font-size: inherit;
-    padding: 0em 0.5em 0em 0em;
+    padding: 0em 0.2em 0em 0.5em;
     position: relative;
     top: 0.1em;//for vertical center
     display: inline-block;//remove underline
+    opacity: 0.5;
   }
 }
 

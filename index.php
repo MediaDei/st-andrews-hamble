@@ -253,6 +253,12 @@
 <section class="greyBackground">
 	<div class="gallery">
 		<h1>Gallery</h1>
+
+		<div class="slider">
+			<?php echo do_shortcode('[rev_slider alias="home"]'); ?>
+		</div>
+
+		<!-- left for original image and caption reference
 		<div class="slider">
 			<div class="slideWrapper">
 				<figure class="imageDefaults image1">
@@ -375,6 +381,7 @@
 			</div>
 		</div>
 	</div>
+-->
 	
 </section>
 <section>
@@ -428,22 +435,5 @@ function connectBoxOk(){
 	$('.accept').removeClass('top');
 }
 </script>
-
-<!--slick slider-->
-<script src="<?php bloginfo('template_url'); ?>/js/slick.js" type='text/javascript'></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.slider').slick({
-    infinite: true,
-    slideToShow: 1,
-    slidesToScroll: 1,
-    centerMode: true,
-    centerPadding: "140px",
-    dots: true,
-    variableWidth: true
-  });
-});
-</script>
-
 
 <?php get_footer(); ?>

@@ -19,6 +19,7 @@ html {
   margin: 0 auto;
 }
 
+
 //------------------------------------------------- Header
 header {
   position: relative;
@@ -1348,7 +1349,9 @@ body.home {
           padding-bottom: 40px;
         }
         div.slider {
-          height: 500px;
+          margin: 0 auto;
+          width: 85%;
+          height: 600px;
 
           .slideWrapper {
 
@@ -1599,6 +1602,9 @@ body.page-id-4 {
 
             a {
               float: left;
+              &:before{
+                padding-left: 0em;
+              }
 
               //Button Padding
               &:first-of-type {
@@ -2634,7 +2640,7 @@ body.page-id-4 {
       &:target{
         display: block;
         position: fixed;
-        width: 50%;
+        width: 700px;
         border-radius: 6px;
         top: 10%;
         left: 50%;
@@ -3427,10 +3433,6 @@ body.page-id-6 {
           line-height: 1.1;
           text-align: center;
           color: $mainTextColor*1.5;
-
-          a {
-            color: #86A6F2;
-          }
         }
 
         h1 {

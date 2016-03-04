@@ -12,7 +12,7 @@
 			<p>
 				Every other Tuesday, 10.30 am – 12.45 pm in the Priory Centre (except August)
 
-				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall, <a class="phone-number" href="tel:023 8045 5794">023 8045 5794</a>.  
+				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall; <a class="phone-number" href="tel:023 8045 5794">023 8045 5794</a>.  
 			</p>
 		</div>
 		<div class="image cafe"></div>
@@ -25,7 +25,7 @@
 			<p>
 				Every other Tuesday, 10.30 am – 12.45 pm in the Priory Centre (except August)
 
-				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall, <a class="phone-number" href="tel:02380455794">023 8045 5794</a>.  
+				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall; <a class="phone-number" href="tel:02380455794">023 8045 5794</a>.  
 			</p>
 		</div>
 	</div>
@@ -38,7 +38,7 @@
 		</div>
 		<div class="right">
 			<p>
-				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith <a class="phone-number" href="tel:02380452988">023 8045 2988</a>. 
+				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith; <a class="phone-number" href="tel:02380452988">023 8045 2988</a>. 
 			</p>
 		</div>
 	</div>
@@ -71,10 +71,10 @@
 		<div class="ph4"></div>
 	</div>
 	<p class="info">
-		<span class="arrow fa fa-reply-all fa-flip-horizontal"></span>For more information and hire rates and 
-		bookings please contact: 
-		Jeff Law tel. <a class="phone-number" href="tel:02380454299">023 8045 4299</a>, 
-		e-mail: <a class="email-address" href="mailto:jenjeff@btinternet.com">jenjeff@btinternet.com</a>
+		<span class="arrow fa fa-reply-all fa-flip-horizontal"></span>For more information, hire rates, and 
+		bookings please contact, Jeff Law:
+		<a class="phone-number" href="tel:02380454299">023 8045 4299</a>
+		<a class="email-address" href="mailto:jenjeff@btinternet.com">jenjeff@btinternet.com</a>
 	</p>
 </section>
 <?php get_footer(); ?>
