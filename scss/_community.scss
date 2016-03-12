@@ -76,7 +76,7 @@ section.community{
 				width: 38%;
 				margin-right: 220px;
 				h2{
-					width: 80%;
+					width: 85%;
 					margin: 0px auto;
 					font-style: italic;
 					border-bottom: 2px solid white;
@@ -85,7 +85,7 @@ section.community{
 				}
 				p{
 					color: white;
-					font-size: 0.9em;
+					font-size: 0.8em;
 					text-align: center;
 				}
 			}
@@ -126,6 +126,9 @@ section.community{
 	}
 	div.slider{
 		margin: 0 auto;
+		height: 370px;
+		overflow: hidden;
+		width: 920px;
 	}
 }
 section.community.grey-bg{

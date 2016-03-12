@@ -18,12 +18,12 @@
 		<div class="image lighthouse"></div>
 	</div>
 
-	<div class="wrapper">
-		<div class="image choir"></div>
+	<div class="wrapper" id="children-choir">
+		<div class="image choir"></div> 
 		<div class="text choir">
 			<h2>Children's Choir</h2>
 			<p>
-				Wednesdays at 5.30 pm in church
+				Tuesdays at 5.30 pm in church
 			
 				Children age 6 – 8 can learn to sing in a fun and friendly way with Lillian Sediles, our professional children’s choir conductor and vocalist from the United States.  Free to join and no audition!  Contact Lillian for more information; <a class="phone-number" href="tel:07480122156">07480 122156</a>.
 			</p>
