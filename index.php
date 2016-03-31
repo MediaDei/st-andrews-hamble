@@ -254,9 +254,7 @@
 	<div class="gallery">
 		<h1>Gallery</h1>
 
-		<div class="slider">
-			<?php echo do_shortcode('[rev_slider alias="home"]'); ?>
-		</div>
+		<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'home', 'slug' ); } ?>
 
 		<!-- left for original image and caption reference
 		<div class="slider">

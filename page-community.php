@@ -48,9 +48,7 @@
 			St Andrew’s has a reputation for offering people a good social programme in a safe environment and at affordable prices  - from  coffee, cakes and quizzes to formal dinners and concerts. Keep an eye on the website for upcoming events – we look forward to seeing you there!
 		</p>
 	</div>
-	<div class="slider">
-		<?php echo do_shortcode('[rev_slider alias="community"]'); ?>
-	</div>
+	<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'community', 'slug' ); } ?>
 </section>
 <section class="community grey-bg">
 	<h1>The Priory Centre</h1>

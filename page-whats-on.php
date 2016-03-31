@@ -169,9 +169,24 @@
 									<span>' . tribe_get_start_date(null, false, 'j F') . '</span> &bull; <span>' . tribe_get_start_date(null, false, 'g:i') . ' - ' . tribe_get_end_date(null, false, 'g:ia') . '</span> &bull; <span>' . tribe_get_venue() . '</span>
 								</time>
 							</header>
-							<article>
-								<p>' . get_the_content() . '</p>
-							</article>
+							<article>';
+
+								if (has_post_thumbnail() ){
+									?>
+
+										<a class="image">  <?php the_post_thumbnail(); ?></a>
+										<p> <?php the_content(); ?> </p>
+
+										<?php
+								} 
+								else {
+									?>
+										<p> <?php the_content(); ?> </p>
+									<?php  
+								}
+							
+							echo
+							'</article>
 							<div class="bottomBox">
 								<span class="fa fa-calendar"></span>
 								<time>' . tribe_get_start_date(null, false, 'j M., g:i') . ' - ' . tribe_get_end_date(null, false, 'g:ia') . '</time>

@@ -1,11 +1,11 @@
 <?php 
 
-//allow Featured Images in Posts
+//allow Featured Images in Posts (Used in Events Widget)
 add_theme_support( 'post-thumbnails' ); 
 
 
 
-// remove auto-loaded emoji scripts (Tyler)
+// remove auto-loaded emoji scripts
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
@@ -51,8 +51,8 @@ add_filter( 'wp_title', 'extra_wp_title', 10, 2 );
 function scripts_styles() {
     wp_deregister_style( 'open-sans' );
     wp_register_style( 'open-sans', false );
-    //wp_enqueue_script('jquery'); // default jQuery
-    wp_enqueue_script('jquery-include', get_template_directory_uri() . '/js/jquery-1.11.3.min.js');
+    wp_enqueue_script('jquery'); // default jQuery
+    //wp_enqueue_script('jquery-include', get_template_directory_uri() . '/js/jquery-1.11.3.min.js');
     wp_enqueue_script('mapbox', 'https://api.tiles.mapbox.com/mapbox.js/v2.2.0/mapbox.js');
 }
 add_action( 'wp_enqueue_scripts', 'scripts_styles');

@@ -126,8 +126,9 @@ section.community{
 	}
 	div.slider{
 		margin: 0 auto;
-		height: 370px;
-		overflow: hidden;
+		//height: 370px;
+		min-height: 500px;
+		//overflow: hidden;
 		width: 920px;
 	}
 }

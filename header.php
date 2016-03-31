@@ -11,10 +11,8 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/global.css" type="text/css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" type="text/css">
 	<link rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox.js/v2.2.0/mapbox.css' type="text/css">
-
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>">
 	<link rel="shortcut icon" href="favicon.png">
-
 	<meta property="og:site_name" content="St. Andrew's Church, Hamble" />		
 	<meta property="og:url" content="http://standrewshamble.org/" />
 	<meta property="og:title" content="St. Andrew's Church, Hamble" />

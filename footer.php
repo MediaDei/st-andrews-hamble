@@ -102,6 +102,7 @@
 
 
 	<script type="text/javascript">
+		var $ = jQuery.noConflict();
 	  $(document).ready(function(){
 
 		$("header .social .contact, footer .svg-container, section.about-contact a.contact").click(function() {
