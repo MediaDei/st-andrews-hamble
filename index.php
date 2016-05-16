@@ -106,8 +106,12 @@
 
 							echo '
 							<div class="main">
-								<h2><a href="/whats-on/#events">' . get_the_title() . '</a></h2>
-								<p>' . get_the_content() . '</p>
+								<h2><a href="/whats-on/#events">' . get_the_title() . '</a></h2>';
+
+								if (has_post_thumbnail() ){
+									echo '<a class="image">' . get_the_post_thumbnail() . '</a>';
+								}
+								echo '<p>' . get_the_content() . '</p>
 							</div>
 							<div class="time">
 								<p><span class="fa fa-calendar"></span><time>' . tribe_get_start_date(null, false, 'j F, g:ia') . '</time></p>
@@ -250,7 +254,7 @@
 		</div>
 	</div>
 </section>
-<section class="greyBackground">
+<section class="greyBackground" style="overflow:hidden">
 	<div class="gallery">
 		<h1>Gallery</h1>
 

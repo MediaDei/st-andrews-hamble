@@ -50,7 +50,7 @@
 	</div>
 	<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'community', 'slug' ); } ?>
 </section>
-<section class="community grey-bg">
+<section class="community grey-bg" id="priory-centre">
 	<h1>The Priory Centre</h1>
 	<p>
 		The Priory Centre is a modern hall attached to the church that can be hired for all sorts of functions.  It is well used for church functions and community activities and is let out for numerous village events  eg: children’s parties, family celebrations, meetings, wedding receptions.

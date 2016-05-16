@@ -192,7 +192,7 @@
       <div class="name">Terry Smith</div> <div class="desc">Wedding and Funeral Verger</div>
       <div class="name">Annette de Bary</div> <div class="desc">Choir Leader</div>
       <div class="name">Helen Griffiths</div> <div class="desc">Organist, PCC Vice Chairman and Deanery Synod Rep.</div>
-      <div class="name">Grant Hearn</div> <div class="desc">Chairman of the Friends of St Andrew's</div>
+      <div class="name">Grant Hearn</div> <div class="desc">Chairman of the Friends of<br>St Andrew's</div>
       <div class="name">Liz Jarvis</div> <div class="desc">Magazine Editor</div>
       <div class="name">Kim Quayle</div> <div class="desc">Children's work leader</div>
       <div class="name">Lillian Sediles</div> <div class="desc">PCC Secretary</div>
@@ -395,7 +395,7 @@
         <td>
           Helen Griffiths
         </td>
-        <td>Organist; PCC Vice Chairman; Deanery Synod Rep.</td>
+        <td style="width:300px">Organist; PCC Vice Chairman; Deanery Synod Rep.</td>
         <td><a class="phone-number" href="tel:023 8045 8452">023 8045 8452</a></td>
       </tr>
 
@@ -474,7 +474,7 @@
 
       <tr>
         <td>Heather Smith</td>
-        <td>Home Visiting Co-ordinator; Bereavement Support Group; Wedding Verger</td>
+        <td style="width:320px">Home Visiting Co-ordinator; Bereavement <br>Support Group; Wedding Verger</td>
         <td><a class="phone-number" href="tel:023 8045 2988">023 8045 2988</a></td>
       </tr>
 
