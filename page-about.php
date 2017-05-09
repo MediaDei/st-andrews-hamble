@@ -36,11 +36,30 @@
           
           <p class="text">
             <span>Email:</span><br>
-            <a class="email-address" href="mailto:StAndrews.Hamble@gmail.com">StAndrews.Hamble@gmail.com</a>
+            <script type="text/javascript">
+            var $ = jQuery.noConflict();
+            $(document).ready(function() {
+              var e = "StAndrews.Hamble"; // replace with your email username
+              var t = "gmail"; // replace with your email provider
+              var n = ".com"; // replace with your email provider TLD
+              var r = "mailto:" + e + '@' + t + n; //href
+              $('#hidden-email').attr('href',r).html(e + '@'+t+n);
+            });
+          </script>
+          <a id="hidden-email" class="email-address" href="#">Please enable Javascript to view</a>
           </p>
           <p class="text">
             <span>Phone:</span><br>
-            <a class="phone-number" href="tel:02380452148">02380 452148</a>
+            <script type="text/javascript">
+            var $ = jQuery.noConflict();
+            $(document).ready(function() {
+              var a = "02380";
+              var e = "452148";
+              var r = "tel:" + a + e; //href
+              $('#hidden-phone').attr('href',r).html(a + ' ' + e);
+            });
+          </script>
+          <a id="hidden-phone" class="phone-number" href="#">Please enable Javascript to view</a>
           </p>
         </div>
               

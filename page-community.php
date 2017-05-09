@@ -5,6 +5,35 @@
 	<div class="page-title"><h1>Community</h1></div>
 </header>
 
+<script type="text/javascript">
+	var $ = jQuery.noConflict();
+	$(document).ready(function() {
+		var a = "023 8045";
+		var e = "5794";
+		var r = "tel:" + a + e; //href
+		$('#phone1').attr('href',r).html(a + ' ' + e);
+	});
+</script>
+<script type="text/javascript">
+	var $ = jQuery.noConflict();
+	$(document).ready(function() {
+		var a = "023 8045";
+		var e = "5794";
+		var r = "tel:" + a + e; //href
+		$('#phone2').attr('href',r).html(a + ' ' + e);
+	});
+</script>
+<script type="text/javascript">
+	var $ = jQuery.noConflict();
+	$(document).ready(function() {
+		var a = "023 8045";
+		var e = "2988";
+		var r = "tel:" + a + e; //href
+		$('#phone3').attr('href',r).html(a + ' ' + e);
+	});
+</script>
+
+
 <section class="community">
 	<div class="wrapper">
 		<div class="text">
@@ -12,7 +41,7 @@
 			<p>
 				Every other Tuesday, 10.30 am – 12.45 pm in the Priory Centre (except August)
 
-				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall; <a class="phone-number" href="tel:023 8045 5794">023 8045 5794</a>.  
+				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall; <a id="phone1" class="phone-number" href="#">Please enable Javascript to view</a>.  
 			</p>
 		</div>
 		<div class="image cafe"></div>
@@ -25,7 +54,7 @@
 			<p>
 				Every other Tuesday, 10.30 am – 12.45 pm in the Priory Centre (except August)
 
-				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall; <a class="phone-number" href="tel:02380455794">023 8045 5794</a>.  
+				Run by volunteers from the church and the village the café provides excellent low cost lunches and a fun meeting place for all.  Any queries call Joan Marshall; <a id="footer-phone" class="phone-number" href="#">Please enable Javascript to view</a>.  
 			</p>
 		</div>
 	</div>
@@ -38,7 +67,7 @@
 		</div>
 		<div class="right">
 			<p>
-				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith; <a class="phone-number" href="tel:02380452988">023 8045 2988</a>. 
+				An informal, friendly group that shares worries and strategies for coping with loss over tea and biscuits.  For information contact Heather Smith; <a id="phone3" class="phone-number" href="#">Please enable Javascript to view</a>. 
 			</p>
 		</div>
 	</div>
@@ -71,8 +100,28 @@
 	<p class="info">
 		<span class="arrow fa fa-reply-all fa-flip-horizontal"></span>For more information, hire rates, and 
 		bookings please contact, Jeff Law:
-		<a class="phone-number" href="tel:02380454299">023 8045 4299</a>
-		<a class="email-address" href="mailto:jenjeff@btinternet.com">jenjeff@btinternet.com</a>
+		<a id="phone5" class="phone-number" href="#">Please enable Javascript to view</a>	
+		<a id="email1" class="email-address" href="#">Please enable Javascript to view</a>
 	</p>
 </section>
+
+<script type="text/javascript">
+	var $ = jQuery.noConflict();
+	$(document).ready(function() {
+		var a = "023 8045";
+		var e = "4299";
+		var r = "tel:" + a + e; //href
+		$('#phone5').attr('href',r).html(a + ' ' + e);
+	});
+</script>
+<script type="text/javascript">
+	var $ = jQuery.noConflict();
+	$(document).ready(function() {
+		var e = "jenjeff"; // replace with your email username
+		var t = "btinternet"; // replace with your email provider
+		var n = ".com"; // replace with your email provider TLD
+		var r = "mailto:" + e + '@' + t + n; //href
+		$('#email1').attr('href',r).html(e + '@'+t+n);
+	});
+</script>
 <?php get_footer(); ?>

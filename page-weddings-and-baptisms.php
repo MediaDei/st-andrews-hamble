@@ -13,10 +13,31 @@
 		</p>
 		<div class="weddings"></div>
 	</div>
+
+	<script type="text/javascript">
+		var $ = jQuery.noConflict();
+		$(document).ready(function() {
+			var a = "023 8045";
+			var e = "2148";
+			var r = "tel:" + a + e; //href
+			$('#phone1').attr('href',r).html(a + ' ' + e);
+		});
+	</script>
+	<script type="text/javascript">
+		var $ = jQuery.noConflict();
+		$(document).ready(function() {
+			var e = "grahamwhiting"; // replace with your email username
+			var t = "yahoo"; // replace with your email provider
+			var n = ".com"; // replace with your email provider TLD
+			var r = "mailto:" + e + '@' + t + n; //href
+			$('#email1').attr('href',r).html(e + '@'+t+n);
+		});
+	</script>
+	
 	<p class="under">
 		To be married at St Andrew’s Church requires a link with the parish either through residency or family connections in the past.  If neither of these apply one would have to commit to attending the church on a regular basis until the wedding.
 
-		All enquiries about weddings at St Andrew’s Church should be made to our Parish Priest, Fr Graham Whiting: <a class="phone-number" href="tel:02380452148">023 8045 2148</a>|<a class="email-address" href="mailto:grahamwhiting@yahoo.com">grahamwhiting@yahoo.com</a>
+		All enquiries about weddings at St Andrew’s Church should be made to our Parish Priest, Fr Graham Whiting: <a id="phone1" class="phone-number" href="#">Please enable Javascript to view</a>|<a id="email1" class="email-address" href="#">Please enable Javascript to view</a>
 
 		The Church of England website has much useful information to help in preparations for your forthcoming marriage: <a href="http://www.yourchurchwedding.org">http://www.yourchurchwedding.org</a>
 	</p>
@@ -32,7 +53,7 @@
 	<p class="under">
 		To have a Baptism at St. Andrew’s  you would normally need to live in the parish of Hamble or be a regular part of the worshipping congregation of St Andrew’s.
 
-		Contact our parish priest, Parish Priest, Fr Graham Whiting for more information about this momentous person in a person’s life: <a class="phone-number" href="tel:02380452148">023 8045 2148</a>|<a class="email-address" href="mailto:grahamwhiting@yahoo.com">grahamwhiting@yahoo.com</a>
+		Contact our parish priest, Parish Priest, Fr Graham Whiting for more information about this momentous person in a person’s life: <a id="phone1" class="phone-number" href="#">Please enable Javascript to view</a>|<a id="email1" class="email-address" href="#">Please enable Javascript to view</a>
 
 		The Church of England website also has a lot of useful information for those thinking about arranging a baptism: <a href="http://www.churchofenglandchristening.org">http://www.churchofenglandchristening.org</a>
 	</p>
@@ -46,7 +67,7 @@
 	</div>
 	<p class="under">
 		All enquiries about funerals should be made direct to our Parish Priest, Fr Graham Whiting:
-		<a class="phone-number" href="tel:02380452148">023 8045 2148</a>|<a class="email-address" href="mailto:grahamwhiting@yahoo.com">grahamwhiting@yahoo.com</a>
+		<a id="phone1" class="phone-number" href="#">Please enable Javascript to view</a>|<a id="email1" class="email-address" href="#">Please enable Javascript to view</a>
 
 		The Church of England website also has a lot of helpful information about arranging funerals: <a href="http://www.churchofenglandfunerals.org">http://www.churchofenglandfunerals.org</a>.
 	</p>
